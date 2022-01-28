@@ -53,3 +53,22 @@ jobs:
       - name: Consume static website
         working-directory: /app
         run: python -m alembik
+  consume-twitter:
+    needs: produce
+    runs-on: ubuntu-latest
+    environment: alembik
+    container:
+      image: ghcr.io/lucacillario/alembik/alembik-instagram-consumer
+      credentials:
+         username: ${{ github.actor }}
+         password: ${{ secrets.GHCR_TOKEN }}
+      env:
+        MONGO_HOST: ${{ secrets.MONGO_HOST }}
+        MONGO_DB: alembik
+        SOCIAL: twitter
+        LOGGING_LEVEL: debug
+        ACCOUNT: reddit-CryptoCurrency
+    steps:
+      - name: Consume static website
+        working-directory: /app
+        run: python -m alembik
