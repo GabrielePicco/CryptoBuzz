@@ -69,6 +69,6 @@ jobs:
         LOGGING_LEVEL: debug
         ACCOUNT: reddit-CryptoCurrency
     steps:
-      - name: Consume static website
+      - name: Consume twitter
         working-directory: /app
         run: python -m alembik
