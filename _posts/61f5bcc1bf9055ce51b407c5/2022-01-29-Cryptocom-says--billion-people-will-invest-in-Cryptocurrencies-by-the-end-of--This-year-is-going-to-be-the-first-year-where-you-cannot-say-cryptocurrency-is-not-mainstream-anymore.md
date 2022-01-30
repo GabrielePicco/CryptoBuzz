@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Crypto.com says 1 billion people will invest in Cryptocurrencies by the end of 2022. \"This year is going to be the first year where you cannot say cryptocurrency is not mainstream anymore\"."
+title:  "Crypto.com says 1 billion people will invest in Cryptocurrencies by the end of 2022. This year is going to be the first year where you cannot say cryptocurrency is not mainstream anymore."
 description: "Weakness in the cryptocurrency market is offering a sober outlook at bullish forecasts."
 date: "2022-01-29 22:17:08"
 categories: ['assets', 'end', 'trakulhoon']
