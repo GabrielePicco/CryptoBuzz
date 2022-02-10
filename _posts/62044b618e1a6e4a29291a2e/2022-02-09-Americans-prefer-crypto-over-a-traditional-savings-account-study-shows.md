@@ -14,8 +14,7 @@ A new study has highlighted the extent of cryptocurrency adoption among United S
 
 ## Highlights
 
-- A new study has highlighted the extent of cryptocurrency adoption among U.S.
-- citizens.
+- A new study has highlighted the extent of cryptocurrency adoption among U.S. citizens.
 - Most American adults at 24% owned cryptocurrencies as of 2021.
 - The study was conducted between December 23-25, 2021, while sampling feedback from 2,200 United States adults.
 - Meanwhile, most of the respondents at 31% owned brokerage accounts while 14% held a Robo-adviser investment account.
