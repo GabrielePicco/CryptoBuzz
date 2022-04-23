@@ -3,7 +3,7 @@
 
 # CryptoBuzz: Decentralised cryptocurrencies newspaper
 
-The news is published every day automatically, using reddit as a source of information. An algorithm extract information and summarizes the content (using a transformers model) and statically generates the site with Jekyll.
+The news are published every day automatically, using reddit as a source of information. An algorithm extract information and summarizes the content (using a transformers model) and statically generates the site with Jekyll.
 
 ## Decentralization of news
 
