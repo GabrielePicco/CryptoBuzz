@@ -11,6 +11,8 @@ The news is published every day automatically, using reddit as a source of infor
 
 All news can be modified by changing the markdown on Github, make a pull request to update the articles.
 
+----
+
 <form action="https://formspree.io/{{site.email}}" method="POST">    
 <p class="mb-4">Please send your message to {{site.name}}. We will reply as soon as possible!</p>
 <div class="form-group row">
