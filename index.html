@@ -187,7 +187,7 @@ description: "Find the latest cryptocurrency news"
                 <li class="page-item disabled"><span class="prev page-link">&laquo;</span></li>
               {% endif %}
 
-              {% for page in (1..paginator.total_pages) %}
+              {% for page in (1..paginator.total_pages) limit:5 offset:paginator.page %}
                 {% if page == paginator.page %}
                 <li class="page-item disabled"><span class="webjeda page-link">{{ page }}</span></li>
                 {% elsif page == 1 %}
