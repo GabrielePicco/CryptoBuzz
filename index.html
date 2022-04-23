@@ -134,7 +134,8 @@ description: "Find the latest cryptocurrency news"
 </div>
     
 <!-- Sticky - add sticky tag to the post you want to highlight here - tags: [sticky] -->
-{% assign sticky_post = site.posts | sort: "score" | last %}
+{% assign site_latest_posts = site.posts | sort: "date" | reverse | slice: 0, 23 %}
+{% assign sticky_post = site_latest_posts | sort: "score" | last %}
 <div class="jumbotron jumbotron-fluid jumbotron-home pt-0 pb-0 mt-3 mb-2rem bg-lightblue position-relative">
     <div class="pl-4 pr-0 h-100 tofront">
         <div class="row justify-content-between">
