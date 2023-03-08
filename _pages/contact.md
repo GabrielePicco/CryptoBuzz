@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "About"
 permalink: "/contact.html"
 ---
 
@@ -10,6 +10,10 @@ The news are published every day automatically, using reddit as a source of info
 ## Decentralization of news
 
 All news can be modified by changing the markdown on Github, make a pull request to update the articles.
+
+## Github
+
+See the [code](https://github.com/GabrielePicco/CryptoBuzz) on Github. Automatic publishing is done via [Github Actions](https://github.com/GabrielePicco/CryptoBuzz/tree/main/.github/workflows).
 
 ----
 
